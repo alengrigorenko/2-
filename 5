@@ -1,0 +1,9 @@
+import 'dart:io';
+
+void main() {
+  stdout.write("Введите число для таблицы умножения: ");
+  int? number = int.parse(stdin.readLineSync()!);
+
+  print("\nТаблица умножения для числа $number:\n");
+
+  // Цикл от 1 до 10
